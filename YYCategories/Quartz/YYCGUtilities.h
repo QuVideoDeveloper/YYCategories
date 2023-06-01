@@ -115,7 +115,7 @@ NSString *YYUIViewContentModeToCAGravity(UIViewContentMode contentMode);
  @return A rectangle for the given content mode.
  @discussion UIViewContentModeRedraw is same as UIViewContentModeScaleToFill.
  */
-CGRect YYCGRectFitWithContentMode(CGRect rect, CGSize size, UIViewContentMode mode);
+CGRect YYYCGRectFitWithContentMode(CGRect rect, CGSize size, UIViewContentMode mode);
 
 /// Returns the center for the rectangle.
 static inline CGPoint CGRectGetCenter(CGRect rect) {

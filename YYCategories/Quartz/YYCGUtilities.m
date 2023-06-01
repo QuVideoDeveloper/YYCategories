@@ -190,7 +190,7 @@ NSString *YYUIViewContentModeToCAGravity(UIViewContentMode contentMode) {
     }
 }
 
-CGRect YYCGRectFitWithContentMode(CGRect rect, CGSize size, UIViewContentMode mode) {
+CGRect YYYCGRectFitWithContentMode(CGRect rect, CGSize size, UIViewContentMode mode) {
     rect = CGRectStandardize(rect);
     size.width = size.width < 0 ? -size.width : size.width;
     size.height = size.height < 0 ? -size.height : size.height;
